@@ -1,0 +1,22 @@
+<h1>New User</h1>
+
+<%= form_for :user do |f| %>
+  <p>
+    <%= f.label :game %><br>
+    <%= f.select_tag (:game_id, '<option value="lol">League of Legends</option><option value="sc2">StarCraft 2</option><option value="bf4">Battlefield 4</option>') %>
+  </p>
+ 
+  <p>
+    <%= f.label :nick %><br>
+    <%= f.text_field :nick %>
+  </p>
+
+  <p>
+    <%= f.label :email %><br>
+    <%= f.text_field :email %>
+  </p>
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>

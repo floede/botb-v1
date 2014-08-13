@@ -1,0 +1,378 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"partici",
+				"participant"
+			],
+			[
+				"handle",
+				"handleTournament"
+			],
+			[
+				"find",
+				"finRndArrNo"
+			],
+			[
+				"mat",
+				"match"
+			],
+			[
+				"combi",
+				"combiData"
+			],
+			[
+				"winner",
+				"winners_rounds"
+			],
+			[
+				"loser",
+				"losers_rounds"
+			],
+			[
+				"finals",
+				"finals_rounds"
+			],
+			[
+				"pl",
+				"player2_id"
+			],
+			[
+				"ma",
+				"match"
+			],
+			[
+				"winner_",
+				"winners_rounds"
+			],
+			[
+				"han",
+				"handleTournament"
+			],
+			[
+				"hadle",
+				"handleTournaments"
+			],
+			[
+				"re",
+				"results"
+			],
+			[
+				"tourna",
+				"get_tournament"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"tour",
+				"tournament"
+			],
+			[
+				"cl",
+				"cloudBracketAPI"
+			],
+			[
+				"api",
+				"api_key"
+			],
+			[
+				"bracket",
+				"bracketUrl"
+			],
+			[
+				"b",
+				"bracketData"
+			],
+			[
+				"j",
+				"jquery"
+			],
+			[
+				"site",
+				"site-title"
+			],
+			[
+				"border-rad",
+				"border-radius"
+			],
+			[
+				"s",
+				"script"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 494,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"selected_items":
+		[
+			[
+				"Package Control: remoe",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/F/www/battleofthebureaus/wp/wp-config.php",
+		"/F/www/battleofthebureaus/wp/wp-content/themes/twentyfourteen-child/buddypress.php",
+		"/F/www/battleofthebureaus/wp/wp-content/themes/botb/page.php",
+		"/F/www/battleofthebureaus/wp/wp-content/themes/twentyfourteen-child/style.css",
+		"/F/www/battleofthebureaus/wp/wp-content/themes/twentyfourteen-child/style.less",
+		"/F/www/battleofthebureaus/wp/wp-content/themes/twentyfourteen-child/added-styles.less",
+		"/F/www/battleofthebureaus/wp/wp-content/themes/botb/style.css",
+		"/C/Users/Janus/AppData/Roaming/Sublime Text 3/Packages/smart less build/README.md",
+		"/C/Users/Janus/AppData/Roaming/Sublime Text 3/Packages/Less2Css/less2css.sublime-settings",
+		"/F/www/battleofthebureaus/wp/wp-config-sample.php",
+		"/F/www/battleofthebureaus.com/wp/wp-content/themes/botb/page-templates/botb-report_battle.php",
+		"/F/www/battleofthebureaus.com/wp/wp-content/themes/botb/style.css",
+		"/F/www/battleofthebureaus.com/wp/wp-content/plugins/pods/components/Templates/Templates.php",
+		"/F/www/battleofthebureaus.com/wp/wp-config-local.php",
+		"/F/www/battleofthebureaus.com/wp/wp-config.php",
+		"/C/www/battleofthebureaus.com/wp/wp-config.php",
+		"/C/Users/Janus/Desktop/New Text Document (3).txt",
+		"/C/Users/Janus/Dropbox/www/battleofthebureaus/src/gruntfile.js",
+		"/C/Users/Janus/Dropbox/www/battleofthebureaus/src/json/bracketcloud.json",
+		"/C/Users/Janus/Dropbox/www/battleofthebureaus/src/t27duck-challonge-php-3bc1125fe9cd/readme.txt",
+		"/C/Users/Janus/Dropbox/www/battleofthebureaus/src/index-bracketcloud.php",
+		"/C/xampp/apache/conf/extra/httpd-ssl.conf",
+		"/C/Users/Janus/Dropbox/www/battleofthebureaus/src/package.json",
+		"/Users/jah/Dropbox/www/battleofthebureaus/src/js/battlescript.js",
+		"/Users/jah/Dropbox/www/battleofthebureaus/src/php/bracketcloud.lib.php",
+		"/Users/jah/Dropbox/www/battleofthebureaus/src/jquery-bracket/Gruntfile.js",
+		"/Users/jah/Dropbox/www/battleofthebureaus/src/json/bracketcloud.json",
+		"/Users/jah/Dropbox/www/battleofthebureaus/src/index.php",
+		"/Users/jah/Dropbox/www/battleofthebureaus/src/index.html",
+		"/Users/jah/Dropbox/www/battleofthebureaus/src/jquery-bracket/dist/jquery.bracket.js",
+		"/Users/jah/Dropbox/www/battleofthebureaus/src/jquery-bracket/src/jquery.bracket.ts",
+		"/Users/jah/Dropbox/www/battleofthebureaus/src/css/jquery.bracket.min.css",
+		"/Users/jah/Dropbox/www/battleofthebureaus/src/js/jquery.bracket.min.js",
+		"/Users/jah/Dropbox/www/battleofthebureaus/style.css",
+		"/Users/jah/Dropbox/www/battleofthebureaus/index.html",
+		"/Users/jah/Sites/fodboldquiz/index.html",
+		"/Users/jah/Sites/fodboldquiz/js/scripts.js",
+		"/Users/jah/Sites/fodboldquiz/css/styles.css"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"jquery.bracket.ts",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"redirect_to=http%3A%2F%2Fbattleofthebureaus.com%2Fregistration%2Fwp",
+			"25px",
+			"search-con",
+			"searchcon",
+			"search",
+			"error",
+			"winLosArrNo",
+			"tourney_type",
+			"no_of_rounds",
+			"tournament",
+			"xml",
+			"443",
+			"matches",
+			"participants",
+			"false",
+			"participants",
+			"opts",
+			"json",
+			"data.participants",
+			"teams",
+			"length"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"participants",
+			"matches"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 494,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								494,
+								494
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"project": "botb-ror.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 270.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
