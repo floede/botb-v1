@@ -13,3 +13,11 @@ test:
   pool: 5
   username: super_user
   password: GoeglerPGSU05
+
+production:
+  adapter: postgresql
+  encoding: utf8
+  database: store_production
+  pool: 5
+  username: 
+  password:   
