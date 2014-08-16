@@ -1,13 +1,17 @@
 source 'https://rubygems.org'
 
 # Hjemme PC
-# ruby '1.9.3'
+ruby '1.9.3'
 
 # CodeAnywhere
-ruby '2.1.0'
+# ruby '2.1.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
+
+gem 'pg'
+gem 'rails_12factor' 
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -45,10 +49,7 @@ group :development do
 	gem 'better_errors' 
 	gem 'quiet_assets' 
 	gem 'rails_layout' 
-	gem 'sqlite3'
 end
 group :production do
-	gem 'pg'
-	gem 'rails_12factor' 
 	gem 'thin'
 end
