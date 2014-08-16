@@ -18,4 +18,6 @@
 # Sublime Text
 *.sublime-project
 *.sublime-workspace
-*.sublime-workspace
+
+# Ignore local secrets
+/config/local_env.yml
