@@ -1,4 +1,9 @@
 source 'https://rubygems.org'
+
+# Hjemme PC
+# ruby '1.9.3'
+
+# CodeAnywhere
 ruby '2.1.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
