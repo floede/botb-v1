@@ -2,9 +2,10 @@ source 'https://rubygems.org'
 
 # Hjemme PC
 # ruby '1.9.3'
-
-# CodeAnywhere / Heroku
+# Ruby version for Heroku
 ruby '2.1.0'
+# Ruby version for CodeAnywhere
+# ruby '2.1.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
