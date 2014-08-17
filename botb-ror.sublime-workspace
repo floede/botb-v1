@@ -111,8 +111,51 @@
 			"file": ".gitignore",
 			"settings":
 			{
-				"buffer_size": 494,
+				"buffer_size": 565,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/users_controller.rb",
+			"settings":
+			{
+				"buffer_size": 330,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/users/new.html.erb",
+			"settings":
+			{
+				"buffer_size": 2162,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "source 'https://rubygems.org'\n\n# Hjemme PC\nruby '1.9.3'\n# Ruby version for Heroku\n# ruby '2.1.0'\n# Ruby version for CodeAnywhere\n# ruby '2.1.2'\n\n# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'\ngem 'rails', '4.1.4'\ngem 'webrick', '1.3.1'\ngem 'sass-rails', '~> 4.0.3'\ngem 'foundation-rails'\ngem 'uglifier', '>= 1.3.0'\ngem 'coffee-rails', '~> 4.0.0'\n# See https://github.com/sstephenson/execjs#readme for more supported runtimes\n# gem 'therubyracer',  platforms: :ruby\n\n# Use jquery as the JavaScript library\ngem 'jquery-rails'\n# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks\ngem 'turbolinks'\n# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder\ngem 'jbuilder', '~> 2.0'\n# bundle exec rake doc:rails generates the API under doc/api.\ngem 'sdoc', '~> 0.4.0',          group: :doc\n\n# Use ActiveModel has_secure_password\n# gem 'bcrypt', '~> 3.1.7'\n\n# Use unicorn as the app server\n# gem 'unicorn'\n\n# Use Capistrano for deployment\n# gem 'capistrano-rails', group: :development\n\n# Use debugger\n# gem 'debugger', group: [:development, :test]\n\n# Windows does not include zoneinfo files, so bundle the tzinfo-data gem\ngem 'tzinfo-data', platforms: [:mingw, :mswin]\n\ngroup :development do \n	gem 'sqlite3'\n	gem 'better_errors' \n	gem 'quiet_assets' \n	gem 'rails_layout' \nend\ngroup :production do\n	gem 'thin'\n	gem 'pg'\n	gem 'rails_12factor' 	\nend\n",
+			"file": "Gemfile",
+			"file_size": 1624,
+			"file_write_time": 130527643358603951,
+			"settings":
+			{
+				"buffer_size": 1434,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/foundation_and_overrides.scss",
+			"settings":
+			{
+				"buffer_size": 45253,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 469,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -167,6 +210,11 @@
 	},
 	"file_history":
 	[
+		"/F/www/botb-v1/config/routes.rb",
+		"/F/www/botb-v1/README.rdoc",
+		"/F/www/botb-v1/config/database.yml",
+		"/F/www/botb-v1/config/local_env.yml",
+		"/F/www/botb-v1/.gitignore",
 		"/F/www/battleofthebureaus/wp/wp-config.php",
 		"/F/www/battleofthebureaus/wp/wp-content/themes/twentyfourteen-child/buddypress.php",
 		"/F/www/battleofthebureaus/wp/wp-content/themes/botb/page.php",
@@ -264,7 +312,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -273,15 +321,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 494,
+						"buffer_size": 565,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								494,
-								494
+								565,
+								565
 							]
 						],
 						"settings":
@@ -292,7 +340,149 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/controllers/users_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 330,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/users/new.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2162,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2023,
+								2023
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 446.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Gemfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1434,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								992,
+								992
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/assets/stylesheets/foundation_and_overrides.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 45253,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								201,
+								201
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": -0.0,
+						"translation.y": 3822.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/views/layouts/application.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 469,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								225,
+								225
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]

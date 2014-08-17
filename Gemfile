@@ -1,14 +1,15 @@
 source 'https://rubygems.org'
 
 # Hjemme PC
-# ruby '1.9.3'
+ruby '1.9.3'
 # Ruby version for Heroku
-ruby '2.1.0'
+# ruby '2.1.0'
 # Ruby version for CodeAnywhere
 # ruby '2.1.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
+gem 'webrick', '1.3.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
