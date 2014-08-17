@@ -1,76 +1,49 @@
- <div class="row">
-    <div class="large-12 columns">
-      <div class="nav-bar right">
-       <ul class="button-group">
-         <li><%= link_to 'Frontpage', new_user_path, :class => 'button' %></li>
-         <li><%= link_to 'See all users', users_path, :class => 'button' %></li>
-        </ul>
-      </div>
-      <h1>Battle of the Bureaus <small>Duella Europae</small></h1>
-      <hr/>
-    </div>
-  </div>
+
  
   <div class="row">
     <div class="large-12 columns" role="content">
- <div class="row">
-    <div class="large-6 columns">
-      <div class="signup-panel">
-        <p class="welcome"> Want do you want to play?</p>
-		<%= form_for :user, url:users_path do |f| %>
-          <div class="row collapse">
-          	<div class="small-2 columns">
-          		<span class="prefix"><i class="fi-die-six"></i></span>
-          	</div>
-            <div class="small-10 columns ">
-				<%= f.select :game, options_for_select([ "Which game?", "League of Legends", "StarCraft 2" , "Battlefield 4" ], "Which game?") %>
-            </div>
-          </div>		
-          <div class="row collapse">
-            <div class="small-2  columns">
-              <span class="prefix"><i class="fi-torso-female"></i></span>
-            </div>
-            <div class="small-10  columns">
+		 <div class="row">
+	    	<div class="large-6 columns">
+	      <div class="signup-panel">
+	        <p class="welcome"> Want do you want to play?</p>
+			<%= form_for :user, url:users_path do |f| %>
+	          <div class="row collapse">
+	          	<div class="small-2 columns">
+	          		<span class="prefix"><i class="fi-die-six"></i></span>
+	          	</div>
+	            <div class="small-10 columns ">
+					<%= f.select :game, options_for_select([ "Which game?", "League of Legends", "StarCraft 2" , "Battlefield 4" ], "Which game?") %>
+	            </div>
+	          </div>		
+	          <div class="row collapse">
+	            <div class="small-2  columns">
+	              <span class="prefix"><i class="fi-torso-female"></i></span>
+	            </div>
+	            <div class="small-10  columns">
 
-				<%= f.text_field :nick, placeholder: 'Nickname' %>
+					<%= f.text_field :nick, placeholder: 'Nickname' %>
 
-            </div>
-          </div>
-          <div class="row collapse">
-            <div class="small-2 columns">
-              <span class="prefix"><i class="fi-mail"></i></span>
-            </div>
-            <div class="small-10  columns">
-				<%= f.text_field :email, placeholder: 'E-mail' %>
-            </div>
-          </div>
-        </form>
+	            </div>
+	          </div>
+	          <div class="row collapse">
+	            <div class="small-2 columns">
+	              <span class="prefix"><i class="fi-mail"></i></span>
+	            </div>
+	            <div class="small-10  columns">
+					<%= f.text_field :email, placeholder: 'E-mail' %>
+	            </div>
+	          </div>
+	        </form>
 
-        <%= f.submit 'Sign up!', class: 'button' %>
+	        <%= f.submit 'Sign up!', class: 'button' %>
 
-        <% end %>
+	        <% end %>
 
-      </div>
-    </div>
-   </div> 	
+	      </div>
+	    </div>
+	   </div> 	
 
     </div>
      
   </div>
  
-  <footer class="row">
-    <div class="large-12 columns">
-      <hr/>
-      <div class="row">
-        <div class="large-6 columns">
-          <p>© Copyright no one at all. Go to town.</p>
-        </div>
-        <div class="large-6 columns">
-          <ul class="inline-list right">
-            <li><%= link_to 'Frontpage', new_user_path %></li>
-            <li><%= link_to 'See all users', users_path %></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>

@@ -1,19 +1,27 @@
-<h1>Listing users</h1>
 
-<table>
+
+  <div class="row">
+    <div class="large-12 columns">
+    	<h2>Listing users</h2>
+    </div>
+  </div>
+
+  <div class="row">
+  <div class="large-12">
+   <div class="row collapse">
+<table class="large-6">
 	<tr>
-		<th>Players:</th>
-		<th>Interested in:</th>
+		<th class="large-6 columns">Players:</th>
+		<th class="large-6 columns">Interested in:</th>
 	</tr>
 	<% @users.each do |user| %>
 		<tr>
-			<td><%= user.nick %></td>
-			<td><%= user.game %></td>
+			<td class="large-6 columns"><%= user.nick %></td>
+			<td class="large-6 columns"><%= user.game %></td>
 		</tr>
 	<% end %>
 	
-	
-	
 </table>
-
-<%= link_to 'New user', new_user_path %>
+</div>
+</div>
+</div>
