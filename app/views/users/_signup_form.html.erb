@@ -1,0 +1,32 @@
+<p class="welcome"> Want do you want to play?</p>
+<%= form_for :user, url:users_path, remote: true do |f| %>
+  <div class="row collapse">
+  	<div class="small-2 columns">
+  		<span class="prefix"><i class="fi-die-six"></i></span>
+  	</div>
+    <div class="small-10 columns ">
+		<%= f.select :game, options_for_select([ "Which game?", "League of Legends", "StarCraft 2" , "Battlefield 4" ], "Which game?") %>
+    </div>
+  </div>		
+  <div class="row collapse">
+    <div class="small-2  columns">
+      <span class="prefix"><i class="fi-torso-female"></i></span>
+    </div>
+    <div class="small-10  columns">
+
+		<%= f.text_field :nick, placeholder: 'Nickname' %>
+
+    </div>
+  </div>
+  <div class="row collapse">
+    <div class="small-2 columns">
+      <span class="prefix"><i class="fi-mail"></i></span>
+    </div>
+    <div class="small-10  columns">
+		<%= f.text_field :email, placeholder: 'E-mail' %>
+    </div>
+  </div>
+
+<%= f.submit 'Sign up!', class: 'button' %>
+
+<% end %>
