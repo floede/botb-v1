@@ -14,15 +14,21 @@ class UsersController < ApplicationController
 		@user = User.new(user_params)
 		
 		respond_to do |format|
-			if @user.save
-				format.html { redirect_to @user, notice: 'User was succesfully created.'}
-				format.js {}
-				format.json {
-					render json: @user, status: :created, location: @user 
-				}
+			if @user.valid?
+				if @user.save
+					flash.now[:notice] = 'User was created'
+					format.html { redirect_to @user, notice: 'User was succesfully created.'}
+					format.js { }
+					format.json {
+						render json: @user, status: :created, location: @user 
+					}
+				else
+					format.html { render action: 'new'}
+					format.json { render json: @user.errors, status: :unprocesable_entity}
+				end
 			else
 				format.html { render action: 'new'}
-				format.json { render json: @user.errors, status: :unprocesable_entity}
+				format.json { render json: @user.errors, status: :unprocesable_entity}				
 			end
 		end
 	end
