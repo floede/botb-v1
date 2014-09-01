@@ -19,16 +19,18 @@ class UsersController < ApplicationController
 					flash.now[:notice] = 'User was created'
 					format.html { redirect_to @user, notice: 'User was succesfully created.'}
 					format.js { }
-					format.json {
-						render json: @user, status: :created, location: @user 
-					}
+					#format.json {
+					#	render json: @user, status: :created, location: @user 
+					#}
 				else
 					format.html { render action: 'new'}
-					format.json { render json: @user.errors, status: :unprocesable_entity}
+					#format.json { render json: @user.errors, status: :unprocesable_entity}
 				end
 			else
+				flash[:notice] = 'Please make sure you\'ve filled out all inputs and typed a working email'
 				format.html { render action: 'new'}
-				format.json { render json: @user.errors, status: :unprocesable_entity}				
+				format.js { render action: 'error'}
+				#format.json { render json: @user.errors, status: :unprocesable_entity}				
 			end
 		end
 	end

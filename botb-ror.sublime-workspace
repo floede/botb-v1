@@ -108,6 +108,46 @@
 	"buffers":
 	[
 		{
+			"file": "app/models/user.rb",
+			"settings":
+			{
+				"buffer_size": 294,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/controllers/users_controller.rb",
+			"settings":
+			{
+				"buffer_size": 1025,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/users/_user.html.erb",
+			"settings":
+			{
+				"buffer_size": 475,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/users/_signup_form.html.erb",
+			"settings":
+			{
+				"buffer_size": 1232,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/layouts/_flash.html.erb",
+			"settings":
+			{
+				"buffer_size": 197,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "app/views/users/new.html.erb",
 			"settings":
 			{
@@ -116,50 +156,45 @@
 			}
 		},
 		{
-			"file": "app/views/users/_signup_form.html.erb",
-			"settings":
-			{
-				"buffer_size": 977,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/views/users/_user.html.erb",
-			"settings":
-			{
-				"buffer_size": 345,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "app/views/users/create.js.erb",
 			"settings":
 			{
-				"buffer_size": 67,
+				"buffer_size": 193,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/controllers/users_controller.rb",
+			"file": "config/routes.rb",
 			"settings":
 			{
-				"buffer_size": 656,
-				"line_ending": "Windows"
+				"buffer_size": 1672,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/secrets.yml",
+			"settings":
+			{
+				"buffer_size": 1336,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "Gemfile",
 			"settings":
 			{
-				"buffer_size": 1453,
+				"buffer_size": 1472,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/views/users/index.html.erb",
+			"contents": "export SECRET_KEY_BASE=\"very_long_random_string\"\nexport POSTGRESQL_USERNAME=\"super_user\" \nexport POSTGRESQL_PASSWORD=\"GoeglerPGSU05\"\nexport MAILCHIMP_API_KEY=\"21ffb2aa0a2a713509bf16a8bd9b230c-us9\"\nexport MAILCHIMP_LIST_ID=\"8299111314\"\nexport OWNER_EMAIL=\"info@battleofthebureaus.com\"",
+			"file": "/C/Users/Janus/.bash_profile",
+			"file_size": 238,
+			"file_write_time": 130539077067197566,
 			"settings":
 			{
-				"buffer_size": 505,
+				"buffer_size": 283,
 				"line_ending": "Windows"
 			}
 		}
@@ -213,17 +248,32 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/F/www/botb-v1",
+		"/F/www/botb-v1/app",
+		"/F/www/botb-v1/app/assets",
+		"/F/www/botb-v1/app/assets/fonts",
+		"/F/www/botb-v1/app/assets/stylesheets",
+		"/F/www/botb-v1/public",
+		"/F/www/botb-v1/public/assets",
+		"/F/www/botb-v1/vendor",
+		"/F/www/botb-v1/vendor/assets"
+	],
 	"file_history":
 	[
+		"/F/www/botb-v1/app/assets/stylesheets/foundation-icons.css",
+		"/C/Users/Janus/.bashrc",
+		"/F/www/botb-v1/config/secrets.yml",
+		"/F/www/botb-v1/app/views/layouts/application.html.erb",
+		"/F/www/botb-v1/app/views/users/index.html.erb",
 		"/F/www/botb-v1/app/views/layouts/_navigation.html.erb",
 		"/F/www/botb-v1/app/views/layouts/_footer.html.erb",
 		"/F/www/botb-v1/Gemfile",
 		"/F/www/botb-v1/app/views/pages/about.html.erb",
 		"/F/www/botb-v1/app/views/users/show.html.erb",
-		"/F/www/botb-v1/app/views/users/index.html.erb",
 		"/F/www/botb-v1/app/views/users/new.html.erb",
 		"/F/www/botb-v1/app/assets/stylesheets/users.css.scss",
-		"/F/www/botb-v1/app/views/layouts/application.html.erb",
 		"/F/www/botb-v1/.gitignore",
 		"/F/www/botb-v1/app/controllers/users_controller.rb",
 		"/F/www/botb-v1/app/assets/stylesheets/foundation_and_overrides.scss",
@@ -288,6 +338,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"font",
 			"input",
 			"redirect_to=http%3A%2F%2Fbattleofthebureaus.com%2Fregistration%2Fwp",
 			"25px",
@@ -329,11 +380,154 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "app/models/user.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 294,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								194,
+								194
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/controllers/users_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1025,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1014,
+								1014
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/users/_user.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 475,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								79,
+								79
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/users/_signup_form.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1232,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								331,
+								331
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/layouts/_flash.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 197,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								197,
+								197
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "app/views/users/new.html.erb",
 					"semi_transient": false,
 					"settings":
@@ -358,81 +552,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "app/views/users/_signup_form.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 977,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								170,
-								170
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/views/users/_user.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 345,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								345,
-								345
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
+					"buffer": 6,
 					"file": "app/views/users/create.js.erb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 67,
+						"buffer_size": 193,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								67,
-								67
+								193,
+								193
 							]
 						],
 						"settings":
@@ -443,53 +580,82 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "app/controllers/users_controller.rb",
+					"buffer": 7,
+					"file": "config/routes.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 656,
+						"buffer_size": 1672,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								573,
-								573
+								78,
+								78
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "Gemfile",
+					"buffer": 8,
+					"file": "config/secrets.yml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1453,
+						"buffer_size": 1336,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								84,
-								84
+								1336,
+								1336
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "Gemfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1472,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1030,
+								1030
 							]
 						],
 						"settings":
@@ -497,38 +663,38 @@
 							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 42.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "app/views/users/index.html.erb",
+					"buffer": 10,
+					"file": "/C/Users/Janus/.bash_profile",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 505,
+						"buffer_size": 283,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								175,
-								175
+								48,
+								48
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
@@ -599,6 +765,7 @@
 		],
 		"width": 0.0
 	},
+	"selected_group": 0,
 	"settings":
 	{
 	},
@@ -606,7 +773,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 270.0,
+	"side_bar_width": 466.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
