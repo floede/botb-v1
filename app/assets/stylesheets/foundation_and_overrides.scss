@@ -585,6 +585,10 @@ $primary-color: #008CBA;
 // $input-error-message-font-color: #fff;
 // $input-error-message-font-color-alt: #333;
 
+.required.error + small.error {
+  display: block;
+}
+
 // We use this to style the glowing effect of inputs when focused
 // $input-include-glowing-effect: true;
 // $glowing-effect-fade-time: 0.45s;

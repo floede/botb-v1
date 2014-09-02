@@ -1,9 +1,8 @@
 <p class="welcome"> Want do you want to play?</p>
-<%= simple_form_for :user, url:users_path, remote: true do |form| %>
+<%= simple_form_for :user, url:users_path, remote: true, :html => {'data-abide' => '' } do |form| %>
   <div class="row">
     <div class="small-12 columns">
       <div id="notice">
-        <p><%= form.error_notification %></p>
         <%= render :partial => 'layouts/flash' , :locals => {:flash => flash } %>
       </div>
     </div>
@@ -22,7 +21,8 @@
     </div>
     <div class="small-10  columns">
 
-		<%= form.text_field :nick, placeholder: 'Nickname' %>
+		<%= form.input :nick, placeholder: 'Nickname', label: false, as: :string %>
+    <small class="error">Please provide a nickname.</small>
 
     </div>
   </div>
@@ -31,7 +31,8 @@
       <span class="prefix"><i class="fi-mail"></i></span>
     </div>
     <div class="small-10  columns">
-		<%= form.text_field :email, placeholder: 'E-mail' %>
+		<%= form.input :email, placeholder: 'E-mail', as: :string, name: 'email', label: false %>
+    <small class="error">An email address is required.</small>
     </div>
   </div>
 
