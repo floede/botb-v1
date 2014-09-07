@@ -1,41 +1,37 @@
-<p class="welcome"> Want do you want to play?</p>
 <%= simple_form_for :user, url:users_path, remote: true, :html => {'data-abide' => '' } do |form| %>
-  <div class="row">
-    <div class="small-12 columns">
-      <div id="notice">
-        <%= render :partial => 'layouts/flash' , :locals => {:flash => flash } %>
-      </div>
-    </div>
+
+<div class="medium-12 columns">
+  <div id="notice">
+    <%= render :partial => 'layouts/flash' , :locals => {:flash => flash } %>
   </div>
-  <div class="row collapse">
-  	<div class="small-2 columns">
-  		<span class="prefix"><i class="fi-die-six"></i></span>
-  	</div>
-    <div class="small-10 columns ">
-		<%= form.select :game, options_for_select([ "Which game?", "League of Legends", "StarCraft 2" , "Battlefield 4" ], "Which game?") %>
-    </div>
-  </div>		
-  <div class="row collapse">
-    <div class="small-2  columns">
-      <span class="prefix"><i class="fi-torso-female"></i></span>
-    </div>
-    <div class="small-10  columns">
+</div>
+
+<div class="medium-4 columns">
+  <div class="col-services">
+    <i class="fi-die-six"></i>
+
+    <%= form.select :game, options_for_select([ "Which game?", "League of Legends", "StarCraft 2" , "Battlefield 4" ], "Which game?") %>
+
+  </div> 
+</div>
+
+<div class="medium-4 columns">
+  <i class="fi-torso-female"></i>
 
 		<%= form.input :nick, placeholder: 'Nickname', label: false, as: :string %>
     <small class="error">Please provide a nickname.</small>
 
-    </div>
-  </div>
-  <div class="row collapse">
-    <div class="small-2 columns">
-      <span class="prefix"><i class="fi-mail"></i></span>
-    </div>
-    <div class="small-10  columns">
+</div>
+
+<div class="medium-4 columns">
+  <i class="fi-mail"></i>
+
 		<%= form.input :email, placeholder: 'E-mail', as: :string, name: 'email', label: false %>
     <small class="error">An email address is required.</small>
-    </div>
-  </div>
+</div>
 
-<%= form.submit 'Sign up!', class: 'button' %>
+<div class="medium-12 columns">
+  <%= form.submit 'Sign up!', class: 'button' %>
+</div>
 
 <% end %>
