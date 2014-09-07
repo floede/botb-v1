@@ -16,7 +16,11 @@
 
  */
 
-
-.centered {
+#hero {
+	background: #332f30 url("general-esports.jpg") 0 0 no-repeat;
+	background-size: cover;
+	color: white;
 	text-align: center;
+	padding: 140px 0;
+	filter: grayscale(50%);	
 }
