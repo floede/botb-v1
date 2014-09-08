@@ -6,31 +6,30 @@
   </div>
 </div>
 
-<div class="medium-4 columns">
-  <div class="col-services">
-    <i class="fi-die-six"></i>
+<div class="medium-4 columns text-center">
+  
+    <i class="fi-die-six large"></i>
 
     <%= form.select :game, options_for_select([ "Which game?", "League of Legends", "StarCraft 2" , "Battlefield 4" ], "Which game?") %>
 
-  </div> 
 </div>
 
-<div class="medium-4 columns">
-  <i class="fi-torso-female"></i>
+<div class="medium-4 columns text-center">
+  <i class="fi-torso-female large"></i>
 
 		<%= form.input :nick, placeholder: 'Nickname', label: false, as: :string %>
     <small class="error">Please provide a nickname.</small>
 
 </div>
 
-<div class="medium-4 columns">
-  <i class="fi-mail"></i>
+<div class="medium-4 columns text-center">
+  <i class="fi-mail large"></i>
 
 		<%= form.input :email, placeholder: 'E-mail', as: :string, name: 'email', label: false %>
     <small class="error">An email address is required.</small>
 </div>
 
-<div class="medium-12 columns">
+<div class="medium-12 columns text-center">
   <%= form.submit 'Sign up!', class: 'button' %>
 </div>
 

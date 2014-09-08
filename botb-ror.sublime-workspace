@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"back",
+				"background-image"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
 				"partici",
 				"participant"
 			],
@@ -127,7 +135,7 @@
 			"file": "app/views/layouts/application.html.erb",
 			"settings":
 			{
-				"buffer_size": 8506,
+				"buffer_size": 8513,
 				"line_ending": "Unix"
 			}
 		},
@@ -173,7 +181,7 @@
 			"file": "app/assets/stylesheets/application.css",
 			"settings":
 			{
-				"buffer_size": 757,
+				"buffer_size": 900,
 				"line_ending": "Unix"
 			}
 		}
@@ -232,16 +240,15 @@
 		"/F/www/botb-v1",
 		"/F/www/botb-v1/app",
 		"/F/www/botb-v1/app/assets",
+		"/F/www/botb-v1/app/assets/images",
+		"/F/www/botb-v1/app/assets/javascripts",
 		"/F/www/botb-v1/app/assets/stylesheets",
 		"/F/www/botb-v1/app/views",
 		"/F/www/botb-v1/app/views/layouts",
 		"/F/www/botb-v1/app/views/users",
 		"/F/www/botb-v1/lib",
 		"/F/www/botb-v1/lib/assets",
-		"/F/www/botb-v1/vendor",
-		"/F/www/botb-v1/vendor/assets/stylesheets",
-		"/F/www/botb-v1/vendor/assets/stylesheets/__MACOSX",
-		"/F/www/botb-v1/vendor/assets/stylesheets/__MACOSX/foundation-icons"
+		"/F/www/botb-v1/vendor"
 	],
 	"file_history":
 	[
@@ -439,15 +446,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8506,
+						"buffer_size": 8513,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								635,
-								627
+								634,
+								634
 							]
 						],
 						"settings":
@@ -460,7 +467,7 @@
 						"translation.y": 84.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -578,7 +585,7 @@
 						"translation.y": 17954.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -587,15 +594,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 757,
+						"buffer_size": 900,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								755,
-								755
+								895,
+								895
 							]
 						],
 						"settings":

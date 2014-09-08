@@ -1,0 +1,122 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ *= require foundation_and_overrides
+
+ */
+
+h1, h2, h3 {
+	color: #fff;
+}
+
+#hero {
+	background: #332f30 url("general-esports-faded.jpg") 0 0 no-repeat;
+	background-size: cover;
+	color: white;
+	text-align: center;
+	padding: 140px 0;
+	filter: grayscale(50%);	
+}
+
+.signup {
+	i:before {
+		font-size: 50px;
+		line-height: 50px;
+	}
+}
+
+#intro {
+	padding: 60px 0;
+	h2 {
+		color: #112100;
+	}
+}
+
+#about {
+	background:  #CDE3B6;
+	padding: 60px 0;
+	h2 {
+		color: #112100;
+	}
+}
+
+#challengers {
+	padding: 60px 0;
+	h2 {
+		color: #112100;
+	}
+}
+
+#team{
+	background: #cdcdcd;
+	padding: 60px 0;
+	h2 {
+		color: #112100;
+	}	
+	.col-team {
+		img {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 20px;
+			width: 110px;
+			height: auto;
+			background: white;
+			border-radius: 50%;
+			padding: 4px;
+			-webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+			box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+			-webkit-transition: all 200ms ease-out;
+			transition: all 200ms ease-out;
+		}
+		.social-icons-team {
+			text-align: center;
+			list-style: none;
+			margin: 20px 0 0;
+			padding-left: 0;
+			li {
+				display: inline-block;
+				line-height: 1;
+				margin-right: 8px;
+				a {
+					display: block;
+					font-size: 33px;
+					color: #386E00;				
+				}			
+			}		
+		}
+	}	
+}
+
+#footer {
+	background: #090D06;
+	padding: 60px 0;
+	p {
+		color: #fff;
+	}
+	.to-top {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		border: 1px solid white;
+		font-size: 26px;
+		color: white;
+		text-align: center;
+		line-height: 2.313rem;
+		margin-top: 20px;		
+	}
+}
