@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Hjemme PC
-# ruby '1.9.3'
+#ruby '1.9.3'
 # Ruby version for Heroku
 ruby '2.1.0'
 # Ruby version for CodeAnywhere
