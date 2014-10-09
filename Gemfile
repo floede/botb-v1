@@ -3,9 +3,11 @@ source 'https://rubygems.org'
 # Hjemme PC
 # ruby '1.9.3'
 # Ruby version for Heroku
-ruby '2.1.0'
+# ruby '2.1.0'
 # Ruby version for CodeAnywhere
-# ruby '2.1.2'
+ruby '2.1.2'
+
+gem 'dotenv-rails', :groups => [:development, :test]
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
@@ -15,6 +17,7 @@ gem 'foundation-rails'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'high_voltage'
+gem 'gibbon'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
 
@@ -42,13 +45,14 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # gem 'debugger', group: [:development, :test]
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin]
+# gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 group :development do 
 	gem 'sqlite3'
 	gem 'better_errors' 
 	gem 'quiet_assets' 
-	gem 'rails_layout' 
+	gem 'rails_layout'
+	gem 'capistrano-rails', '~> 1.1.1'
 end
 group :production do
 	gem 'thin'

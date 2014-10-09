@@ -8,6 +8,7 @@ class UsersController < ApplicationController
 	end	
 	
 	def new
+		
 	end
 	
 	def create
@@ -16,6 +17,7 @@ class UsersController < ApplicationController
 		respond_to do |format|
 			if @user.valid?
 				if @user.save
+					@user.subscribe
 					flash.now[:notice] = 'User was created'
 					format.html { redirect_to @user, notice: 'User was succesfully created.'}
 					format.js { }

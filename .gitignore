@@ -23,3 +23,7 @@
 /config/local_env.yml
 botb-ror.sublime-workspace
 botb-ror.sublime-project
+.env
+
+# Ignore application configuration
+/config/application.yml
