@@ -16,6 +16,24 @@
 
  */
 
+@import url(http://fonts.googleapis.com/css?family=Miss+Fajardose|Roboto);
+
+$primary: #259b24;
+$primary-dark: #0d5302;
+$primary-light: #a3e9a4;
+
+$accent: #ffd740;
+$accent-fallback: #ffc400;
+
+$black-87: rgba(00, 00, 00, 0.87); //Text
+$black-54: rgba(00, 00, 00, 0.54); //Secondary text / Icons
+$black-26: rgba(00, 00, 00, 0.26); //Hint text
+$black-12: rgba(00, 00, 00, 0.12); //Dividers
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
 h1, h2, h3 {
 	color: #fff;
 }
@@ -26,7 +44,14 @@ h1, h2, h3 {
 	color: white;
 	text-align: center;
 	padding: 140px 0;
-	filter: grayscale(50%);	
+	filter: grayscale(50%);
+	h1 {
+		font-family: 'Miss Fajardose', cursive;
+		font-size: 118px;
+		font-weight: 100;
+		line-height: 140px;
+		color: $accent;	
+	}
 }
 
 .signup {
@@ -119,4 +144,9 @@ h1, h2, h3 {
 		line-height: 2.313rem;
 		margin-top: 20px;		
 	}
+}
+
+i.large {
+	font-size: 50px;
+	line-height: 50px;
 }
