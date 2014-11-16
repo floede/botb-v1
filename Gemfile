@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 # ruby '1.9.3'
 # Ruby version for Heroku
 ruby '2.1.0'
-# Ruby version for CodeAnywhere
+# Ruby version for Vagrant
 # ruby '2.1.2'
 
 gem 'dotenv-rails', :groups => [:development, :test]
