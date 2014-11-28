@@ -3,9 +3,11 @@ source 'https://rubygems.org'
 # Hjemme PC
 # ruby '1.9.3'
 # Ruby version for Heroku
-ruby '2.1.0'
+# ruby '2.1.0'
 # Ruby version for Vagrant
 # ruby '2.1.2'
+# Ruby version for Digital Ocean
+ruby '2.1.3'
 
 gem 'dotenv-rails', :groups => [:development, :test]
 
@@ -36,10 +38,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use unicorn as the app server
-# gem 'unicorn'
-
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
+gem 'unicorn'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
@@ -52,10 +51,12 @@ group :development do
 	gem 'better_errors' 
 	gem 'quiet_assets' 
 	gem 'rails_layout'
+	gem 'capistrano', '~> 3.2.1'
 	gem 'capistrano-rails', '~> 1.1.1'
+	gem 'capistrano-bundler'
 end
 group :production do
 	gem 'thin'
-	gem 'pg'
+	gem 'mysql2'
 	gem 'rails_12factor' 	
 end
