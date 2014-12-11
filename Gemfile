@@ -5,9 +5,9 @@ source 'https://rubygems.org'
 # Ruby version for Heroku
 # ruby '2.1.0'
 # Ruby version for Vagrant
-# ruby '2.1.2'
+ruby '2.1.2'
 # Ruby version for Digital Ocean
-ruby '2.1.3'
+# ruby '2.1.3'
 
 gem 'dotenv-rails', :groups => [:development, :test]
 
@@ -38,7 +38,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use unicorn as the app server
-gem 'unicorn'
+gem 'unicorn', '~> 4.8.3'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
@@ -54,9 +54,10 @@ group :development do
 	gem 'capistrano', '~> 3.2.1'
 	gem 'capistrano-rails', '~> 1.1.1'
 	gem 'capistrano-bundler'
+	gem 'capistrano-rvm'	
 end
 group :production do
 	gem 'thin'
 	gem 'mysql2'
-	gem 'rails_12factor' 	
+	# gem 'rails_12factor' 	
 end
