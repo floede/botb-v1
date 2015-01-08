@@ -5,9 +5,9 @@ source 'https://rubygems.org'
 # Ruby version for Heroku
 # ruby '2.1.0'
 # Ruby version for Vagrant
-ruby '2.1.2'
+# ruby '2.1.2'
 # Ruby version for Digital Ocean
-# ruby '2.1.3'
+ruby '2.1.3'
 
 gem 'dotenv-rails', :groups => [:development, :test]
 
