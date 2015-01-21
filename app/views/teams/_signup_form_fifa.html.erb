@@ -1,0 +1,37 @@
+<%= simple_form_for :team, url:teams_path, remote: true, :html => {'data-abide' => '' } do |form| %>
+
+<div class="medium-12 columns">
+  <div id="notice">
+    <%= render :partial => 'layouts/flash' , :locals => {:flash => flash } %>
+  </div>
+</div>
+
+<div class="medium-4 columns text-center">
+  
+    <i class="fi-torsos-all large"></i>
+
+    <%= form.input :team_name, placeholder: 'Team name', label: false, as: :string %>
+    <small class="error">Please provide the name of your team.</small>
+
+</div>
+
+<div class="medium-4 columns text-center">
+  <i class="fi-torso-female large"></i>
+
+		<%= form.input :captains_name, placeholder: 'Captain\'s name', label: false, as: :string %>
+    <small class="error">Please provide the name of your team captain.</small>
+
+</div>
+
+<div class="medium-4 columns text-center">
+  <i class="fi-mail large"></i>
+
+		<%= form.input :captains_email, placeholder: 'Captain\'s e-mail', as: :string, name: 'email', label: false %>
+    <small class="error">An email address is required.</small>
+</div>
+
+<div class="medium-12 columns text-center">
+  <%= form.submit 'Sign up!', class: 'button' %>
+</div>
+
+<% end %>

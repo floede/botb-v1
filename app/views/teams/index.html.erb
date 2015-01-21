@@ -1,0 +1,18 @@
+<div class="medium-8 columns medium-centered text-center">
+	<h2>Listing teams</h2>
+</div>
+
+<div class="medium-8 medium-centered columns">
+	<table class="medium-12">
+		<tr>
+			<th class="medium-6 columns">Teams:</th>
+			<th class="medium-6 columns">Captain:</th>
+		</tr>
+		<% @teams.each do |team| %>
+			<tr>
+				<td class="medium-6 columns"><%= team.team_name %></td>
+				<td class="medium-6 columns"><%= team.captains_name %></td>
+			</tr>
+		<% end %>
+	</table>
+</div>

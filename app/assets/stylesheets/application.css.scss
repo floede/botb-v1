@@ -44,13 +44,19 @@ h1, h2, h3 {
 	color: white;
 	text-align: center;
 	padding: 140px 0;
-	filter: grayscale(50%);
 	h1 {
 		font-family: 'Miss Fajardose', cursive;
 		font-size: 118px;
 		font-weight: 100;
 		line-height: 140px;
 		color: $accent;	
+		text-shadow: 0px 0px 3px #000000;
+	}
+	h3, p {
+		text-shadow: 0px 0px 6px #000000;
+	}
+	.button {
+		text-shadow: 0px 0px 2px #000000;
 	}
 }
 

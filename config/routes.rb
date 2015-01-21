@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  resources :users, only: [:new, :create, :index]
+  resources :teams, only: [:new, :create, :index]
 
-  root 'users#new'
+  root 'teams#new'
 end

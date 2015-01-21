@@ -16,7 +16,7 @@
 
     <header class="fixed">
 
-    <%= render 'layouts/navigation' %>
+      <%= render 'layouts/navigation' %>
 
     </header>
 
@@ -26,26 +26,26 @@
       
       <div class="row">
 
-        <div class="medium-8 medium-centered columns">
+        <div class="medium-6 medium-offset-6 columns">
 
           <!-- Title -->
           <h1>Battle of the Bureaus</h1>
-          <h3>Duella Europae</h3>
+          <h3>FIFA 14 company tournament</h3>
 
           <!-- Description -->
-          <p class="lead">Let the battles of the office grounds begin!</p>
+          <p class="lead">Join the upcoming FIFA 14 tournament. It's free!</p>
 
           <!-- Anchor Button -->
-          <p><a class="button alert radius" href="#about">Sign up!</a></p>
+          <p><a class="button radius" href="#intro">Sign up!</a></p>
 
-        </div> <!-- /.medium-8 .medium-centered .columns -->
+        </div> <!-- /.columns -->
         
       </div> <!-- /.row -->
 
     </section> <!-- /#hero -->
 
 
-    <!-- About Section -->
+    <!-- Intro Section -->
     <section class="intro-section" id="intro">
       
       <!-- Title -->
@@ -54,19 +54,20 @@
         <div class="medium-9 medium-centered columns text-center">
           
           <!-- Title -->
-          <h2>We want you to fight!</h2>
+          <h2>The tournament</h2>
           <div class="line"></div>
 
           <!-- Content -->
-          <p>Fight against your friends and colleagues, fight with them against others all over Europe.</p>
-          <p>Just let us know what kind of game you're playing, and how other players can contact you in game.</p>
+          <h3>Tournament format:</h3>
+          <p>Company Teams only. 3 players minimum per team.</p>
+          <p>Two fixed tournament days. Scores must be reported right after the games.</p>
 
         </div> <!-- /.medium-9 medium-centered columns -->
 
       </div> <!-- /.row -->
 
 
-      <section class="signup-section">
+      <section class="signup-section" id="signup">
         
         <div class="row">
 
@@ -82,7 +83,7 @@
 
     </section> <!-- /.intro-section -->
 
-    <!-- Features Section -->
+    <!-- About Section -->
     <section class="about-section" id="about">
 
       <!-- Title -->
@@ -91,103 +92,22 @@
         <div class="medium-9 medium-centered columns text-center">
           
           <!-- Title -->
-          <h2>About Battle of the Bureaus</h2>
+          <h2>About</h2>
           <div class="line"></div>
 
           <!-- Description -->
-          <p class="lead">We're profesional, we play games - but we don't play games professionally.</p>
+          <p class="lead">Battle of the Bureaus is about having a good time with colleagues while
+playing to win!</p>
 
-          <p>And neither do you, probably.</p>
-
-          <p>But that doesn't mean we can't compete with and against our colleagues.</p>
-
-          <p>Battle of the Bureaus aims to create a platform to do just that. We want to put you in contact with other people playing videogames with their colloeagues all over Europe, and eventually arrange tournaments for you to compete in.</p>
-
-          <p>Kind regards, the joint chiefs of staff.</p>
-
+          <p>We believe in great teams. Fair play. And that online gaming can be
+social.</p>
         </div> <!-- /.medium-9 medium-centered columns -->
 
       </div> <!-- /.row -->
 
     </section> <!-- /.features-section -->
 
-    <!-- Challengers -->
-    <section class="challengers-section" id="challengers">
-      
-      <!-- Title -->
-      <div class="row">
-        <div class="medium-8 medium-centered columns text-center">
-
-
-          <h2>Meet the Challengers</h2>
-          <div class="line"></div>
-
-        </div> 
-
-      </div> <!-- /.row -->
-
-
-      <!-- First Columns -->
-      <div class="row">
-          
-        <div class="medium-4 columns">
-          
-          <div class="col-work text-center">
-            
-            <a href="#fakelinks" data-reveal-id="work-modal-1" data-reveal>
-              <%= image_tag "tonsser.jpg" %>
-            </a>
-
-            <!-- Title -->
-            <h4>Tonsser</h4>
-
-            <!-- Description -->
-            <p>They're a startup working out of Copenhagen. They want to create the new home of football, but more importantly, they want to beat your team in FIFA.</p>
-
-          </div>
-          
-        </div> <!-- /.medium-4 .columns -->
-
-        <div class="medium-4 columns">
-          
-          <div class="col-work text-center">
-          
-            <a href="#fakelinks" data-reveal-id="work-modal-1" data-reveal>
-              <%= image_tag "dice.jpg" %>
-            </a>
-
-            <!-- Title -->
-            <h4>DICE</h4>
-
-            <!-- Description -->
-            <p>As a part of EA they are the people behind a small game called Battlefield. Do you dare challenge them at their own game?</p>
-
-          </div> <!-- /.col-work -->
-          
-        </div> <!-- /.medium-4 .columns -->
-
-        <div class="medium-4 columns">
-          
-          <div class="col-work text-center">
-          
-            <a href="#fakelinks" data-reveal-id="work-modal-1" data-reveal>
-              
-              <%= image_tag "Eurogamer.jpg" %>
-            </a>
-
-            <!-- Title -->
-            <h4>Eurogamer.net</h4>
-
-            <!-- Description -->
-            <p>Based in Brighton, they write about videogames. They'll play anything, but they're here to challenge your team in Hearthstone: Heroes of Warcraft.</p>
-
-          </div> <!-- /.col-work -->
-          
-        </div> <!-- /.medium-4 .columns -->
-
-      </div> <!-- /.row -->
-
-    </section>
+    <%#= render 'shared/challengers' %>
 
            <!-- Team Section -->
     <section class="team-section" id="team">
