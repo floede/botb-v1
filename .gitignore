@@ -30,6 +30,7 @@ botb-ror.sublime-project
 
 # Ignore database configuration
 /config/database.yml
+config/database.yml
 
 # Asset files
 app/assets/images/raw/*
