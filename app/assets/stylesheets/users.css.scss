@@ -2,6 +2,8 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+$black-12: rgba(00, 00, 00, 0.12);
+
 .signup-panel{
   border-radius: 5px;
   border: 1px solid #ccc;
@@ -20,7 +22,7 @@
     	color: #000;
     }
   }
-  
+
   }
   .welcome{
     font-size: 26px;
@@ -43,5 +45,15 @@ th {
     text-align: center;
     color: #333333;
     font-weight: bold;
-    font-size: 1em; 
+    font-size: 1em;
+}
+
+#signup-form-container {
+  .saved-input {
+    background-color: $black-12;
+    width: 100%;
+    height: inherit;
+    display: inline-block;
+    line-height: 30px;
+  }
 }

@@ -23,7 +23,7 @@
 
     <!-- Hero Section -->
     <section id="hero">
-      
+
       <div class="row">
 
         <div class="medium-6 medium-offset-6 columns">
@@ -39,7 +39,7 @@
           <p><a class="button radius" href="#intro">Sign up!</a></p>
 
         </div> <!-- /.columns -->
-        
+
       </div> <!-- /.row -->
 
     </section> <!-- /#hero -->
@@ -47,12 +47,12 @@
 
     <!-- Intro Section -->
     <section class="intro-section" id="intro">
-      
+
       <!-- Title -->
       <div class="row">
 
         <div class="medium-9 medium-centered columns text-center">
-          
+
           <!-- Title -->
           <h2>The tournament</h2>
           <div class="line"></div>
@@ -68,13 +68,15 @@
 
 
       <section class="signup-section" id="signup">
-        
+
         <div class="row">
 
           <div id="signup-form-container">
 
-            <%= yield %>
-            
+            <%= render 'teams/team' %>
+
+            <%#= yield %>
+
           </div>
 
         </div> <!-- /.row -->
@@ -90,7 +92,7 @@
       <div class="row">
 
         <div class="medium-9 medium-centered columns text-center">
-          
+
           <!-- Title -->
           <h2>About</h2>
           <div class="line"></div>
@@ -114,7 +116,7 @@ social.</p>
 
       <!-- Title -->
       <div class="row">
-        
+
         <div class="medium-9 medium-centered columns text-center">
 
           <!-- Title -->
@@ -135,11 +137,11 @@ social.</p>
         <div class="row">
 
           <div class="medium-4 medium-centered columns">
-            
+
             <div class="col-team text-center">
-              
+
               <!-- Images Team -->
-              
+
               <%= image_tag "jaha.jpg" %>
 
               <!-- Title Name -->
@@ -156,15 +158,15 @@ social.</p>
             </div> <!-- /.col-team -->
 
           </div> <!-- /.medium-4 .columns -->
-          
+
         </div> <!-- /.row -->
-        
+
       </section> <!-- /.team-wrapped -->
 
 
       <!-- Anchor Button -->
       <!--p class="margin-top"><a class="button alert radius" href="#contact">Contact us</a></p -->
-      
+
     </section> <!-- /.team-section -->
 
       <%= render 'layouts/footer' %>
