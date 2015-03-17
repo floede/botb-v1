@@ -1,6 +1,6 @@
 <% flash.each do |name, msg| %>
-            <div class="alert-message info"> 
-                <a class="close dismiss" href="#">x</a> 
-                <p><%= msg %></p>
+            <div data-alert class="alert-box success radius">
+                <%#= msg %>
+                <a class="close" href="#">&times;</a>
             </div>
 <% end %>
