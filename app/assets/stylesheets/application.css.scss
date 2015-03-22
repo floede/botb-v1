@@ -16,6 +16,8 @@
 
  */
 
+@import "foundation";
+
 @import url(http://fonts.googleapis.com/css?family=Miss+Fajardose|Roboto);
 
 $primary: #259b24;
@@ -157,3 +159,42 @@ i.large {
 	font-size: 50px;
 	line-height: 50px;
 }
+
+media #{$small-up} {
+
+}
+@media #{$small-only} {
+	#hero {
+		padding-top: 15px;
+		padding-bottom: 10px;
+		background-position: 25% 0px;
+		background-size: cover;
+		h1 {
+			font-size: 80px;
+			line-height: 65px;
+		}
+		h3 {
+			margin-top: 180px;
+		}
+	}
+}
+@media #{$medium-up} {
+		#hero {
+			background-position: 25% 0;
+		}
+}
+@media #{$medium-only} { }
+
+@media #{$large-up} {
+	#hero {
+		background-position: 0px 0px;
+		padding: 140px 0px;
+	}
+ }
+@media #{$large-only} { }
+
+@media #{$xlarge-up} { }
+@media #{$xlarge-only} { }
+
+@media #{$xxlarge-up} { }
+@media #{$xxlarge-only} { }
