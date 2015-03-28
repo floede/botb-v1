@@ -179,16 +179,36 @@ media #{$small-up} {
 	}
 }
 @media #{$medium-up} {
-		#hero {
-			background-position: 25% 0;
+	#hero {
+		padding-top: 15px;
+		padding-bottom: 20px;
+		background-position: 25% 0px;
+		background-size: cover;
+		h1 {
+			font-size: 100px;
+			line-height: 120px;
 		}
+		h3 {
+			margin-top: 180px;
+		}
+	}
 }
-@media #{$medium-only} { }
+@media #{$medium-only} {
+
+}
 
 @media #{$large-up} {
 	#hero {
 		background-position: 0px 0px;
+		background-size: cover;
 		padding: 140px 0px;
+		h1 {
+			font-size: 118px;
+			line-height: 140px;
+		}
+		h3 {
+			margin-top: 0px;
+		}
 	}
  }
 @media #{$large-only} { }
