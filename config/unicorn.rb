@@ -1,6 +1,6 @@
 # Set the working application directory
 # working_directory "/path/to/your/app"
-working_directory "/home/rails"
+working_directory "/home/botb-v1/current"
 
 # Unicorn PID file location
 # pid "/path/to/pids/unicorn.pid"
@@ -14,7 +14,7 @@ stdout_path "/home/unicorn/log/unicorn.log"
 
 # Unicorn socket
 # listen "/tmp/unicorn.[app name].sock"
-listen "/home/rails/tmp/unicorn.botb-v1.sock"
+listen "/home/botb-v1/current/tmp/unicorn.botb-v1.sock"
 
 # Number of processes
 # worker_processes 4
