@@ -46,20 +46,26 @@ gem 'unicorn', '~> 4.8.3'
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 # gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
+# Devise for authentication
+gem 'therubyracer'
+gem 'devise'
+gem 'omniauth'
+gem 'omniauth-facebook'
+
 group :development do
 	gem 'sqlite3'
-	gem 'better_errors' 
-	gem 'quiet_assets' 
+	gem 'better_errors'
+	gem 'quiet_assets'
 	gem 'rails_layout'
     gem 'guard'
-    gem 'guard-livereload', require: false    
+    gem 'guard-livereload', require: false
 	gem 'capistrano', '~> 3.2.1'
 	gem 'capistrano-rails', '~> 1.1.1'
 	gem 'capistrano-bundler'
-	gem 'capistrano-rvm'	
+	gem 'capistrano-rvm'
 end
 group :production do
 	gem 'thin'
 	gem 'mysql2'
-	# gem 'rails_12factor' 	
+	# gem 'rails_12factor'
 end
